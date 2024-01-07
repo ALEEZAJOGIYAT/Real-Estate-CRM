@@ -1,0 +1,13 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    width: 100px;
+    height: 45px;
+    float: right;
+    border: 2px solid #F8F8FF;
+    border-radius: 500px;
+}

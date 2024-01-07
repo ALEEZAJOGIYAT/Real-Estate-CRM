@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.profile-head {
+  min-height: 66vh;
+  background: #009FFF;
+  background: linear-gradient(to right, #420B31, #721655);
+  color: white;
+  clip-path: ellipse(100vw 60vh at 50% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.details {
+  text-align: center;
+}
+
+.profile-pic {
+  /* height: 6rem; */
+  width: 6rem;
+  object-fit: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.location p {
+  display: inline-block;
+}
+
+.location svg {
+  vertical-align: middle;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 12px;
+}
+
+.stats .col-4 {
+  width: 6rem;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+/* Existing CSS */
+
+.profile {
+  width: 60%; /* Updated width */
+  max-width: 800px; /* Added max-width for responsiveness */
+  height: 60vh; /* Set height to 60% of viewport height */
+  padding: 30px; /* Adjust padding */
+  margin: 0 auto; /* Center align horizontally */
+  display: flex; /* Use flexbox for centering vertically */
+  flex-direction: column; /* Arrange children in a column */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.profileHeader {
+  font-weight: 600;
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add margin for spacing */
+  margin-top: 74px;
+}
+
+/* Add media query for mobile responsiveness */
+@media screen and (max-width: 700px) {
+  .profile {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust as per content */
+  }
+  .stats{
+    justify-content: center;
+  }
+
+ }
+
+.container {
+  width: 100%; /* Ensure full width */
+  padding: 0 15px; /* Add some padding for better mobile view */
+  box-sizing: border-box; /* Include padding in the width */
+}
+.profileLogoutBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+

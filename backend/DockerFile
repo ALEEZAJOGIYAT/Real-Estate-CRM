@@ -1,0 +1,9 @@
+FROM node:19
+
+RUN apt-get update
+WORKDIR /backened
+RUN npm install
+COPY . .
+CMD npm start
+
+EXPOSE 4000

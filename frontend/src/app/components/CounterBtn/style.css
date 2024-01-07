@@ -1,0 +1,29 @@
+.btn {
+    border: 1px solid #4A0D37;
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px
+}
+
+.input {
+    border-color: #4A0D37;
+    border-width: 1px;
+    background-color: white;
+    padding: 5px 10px;
+    width: 75px;
+    /* border-radius: 5px 0 0 5px; */
+}
+
+.appart_container button:nth-child(2) {
+}
+
+.appart_container button:last-child {
+    /* border-radius: 0 5px 5px 0 !important; */
+    border-width: 1px;
+}
+
+.appart_container {
+    display: flex;
+    margin: 15px 0;
+}
